@@ -51,7 +51,7 @@ h1 {
 }
 
 .socials {
-    margin-top: 18px;
+    margin-top: 8px;
     display: flex;
     justify-content: center;
     gap: 18px;
@@ -65,12 +65,13 @@ h1 {
 }
 
 .socials img {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     display: block;
-    padding: 0;           /* Remove padding */
-    background: none;     /* Ensure no background */
+    padding: 0;
+    background: none;
     transition: box-shadow 0.3s, transform 0.3s;
+    border-radius: 50%; /* Make the icon a circle */
 }
 
 .socials a:hover img,
@@ -132,7 +133,7 @@ button {
 	position: relative;
 	padding: 1rem 2rem;
 
-    margin-top: 20px;
+    margin-top: 8px;
     width: 75%;
 }
 
