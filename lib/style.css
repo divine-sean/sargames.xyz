@@ -99,6 +99,13 @@ h1 {
 			transparent) calc((var(--x) * 1px) - (var(--size) * 0.5)) calc((var(--y) * 1px) - (var(--size) * 0.5)) / var(--size) var(--size) no-repeat fixed;
 }
 
+/* Custom glow for CosmicKing button */
+.cosmicking-btn {
+    --glow: radial-gradient(50% 50% at center,
+            #ecec00, #c3c300,
+            transparent) calc((var(--x) * 1px) - (var(--size) * 0.5)) calc((var(--y) * 1px) - (var(--size) * 0.5)) / var(--size) var(--size) no-repeat fixed;
+}
+
 body { 
     background-color: var(--bg);
     color: white;
@@ -128,6 +135,7 @@ button {
     margin-top: 20px;
     width: 75%;
 }
+
 button::before {
 	content: "";
 	position: absolute;
