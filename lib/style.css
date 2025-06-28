@@ -122,7 +122,7 @@ button::before {
 	border-radius: 1rem;
 }
 button span {
-	background: var(--glow), black;
+	background: var(--glow), white;
 	background-clip: text;
 	color: transparent;
 	height: 100%;
