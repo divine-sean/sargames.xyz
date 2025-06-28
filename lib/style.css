@@ -6,8 +6,6 @@ h1 {
 }
 
 .card {
-	background: linear-gradient(315deg, #4f8cff, #a259ff) padding-box,
-				linear-gradient(315deg, #fff, #a259ff) border-box; /* border gradient */
     border: 3px solid transparent;
     border-radius: 10px;
     width: 15%;
