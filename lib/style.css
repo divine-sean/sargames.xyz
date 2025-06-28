@@ -102,7 +102,7 @@ h1 {
 /* Custom glow for CosmicKing button */
 .cosmicking-btn {
     --glow: radial-gradient(50% 50% at center,
-            #ecec00, #c3c300,
+            rgb(255, 215, 0), rgb(255, 215, 0),
             transparent) calc((var(--x) * 1px) - (var(--size) * 0.5)) calc((var(--y) * 1px) - (var(--size) * 0.5)) / var(--size) var(--size) no-repeat fixed;
 }
 
