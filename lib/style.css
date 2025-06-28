@@ -30,10 +30,9 @@ body {
     margin: 10px;
 }
 
-#card a {
+#card .main-btn {
     position: relative;
     overflow: hidden;
-
     display: inline-block;
     color: #fff;
     background: linear-gradient(90deg, #4f8cff 0%, #2350a5 100%);
@@ -53,7 +52,7 @@ body {
     letter-spacing: 0.5px;
 }
 
-#card a::before {
+#card .main-btn::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -65,12 +64,41 @@ body {
     border-radius: 6px;
 }
 
-#card a:hover::before,
-#card a:focus::before {
+#card .main-btn:hover::before,
+#card .main-btn:focus::before {
     opacity: 1;
 }
 
-#card a span {
+#card .main-btn span {
     position: relative;
     z-index: 2;
+}
+
+.socials {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.socials a {
+    display: inline-block;
+    transition: transform 0.2s cubic-bezier(.4,0,.2,1), 
+                box-shadow 0.3s cubic-bezier(.4,0,.2,1);
+    border-radius: 50%;
+}
+
+.socials img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    padding: 0;           /* Remove padding */
+    background: none;     /* Ensure no background */
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.socials a:hover img,
+.socials a:focus img {
+    box-shadow: 0 2px 12px rgba(79,140,255,0.25);
+    transform: scale(1.12);
 }
