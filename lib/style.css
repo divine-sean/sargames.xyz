@@ -94,7 +94,7 @@ h1 {
 	--yp: 0;
 	--hue: calc(0 + (var(--xp) * 500));
 	--bg: rgb(35,35,35);
-	--size: 150px;
+	--size: 250px;
 	--glow: radial-gradient(50% 50% at center,
 			hsl(var(--hue) 80% 85%),
 			hsl(var(--hue) 80% 70%),
