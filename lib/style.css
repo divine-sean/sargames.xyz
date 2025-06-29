@@ -72,6 +72,7 @@ h1 {
     background: none;
     transition: box-shadow 0.3s, transform 0.3s;
     border-radius: 50%; /* Make the icon a circle */
+	object-fit: fill;
 }
 
 .socials a:hover img,
