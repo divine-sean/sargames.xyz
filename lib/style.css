@@ -1,6 +1,43 @@
 *{margin: 0;padding: 0;}
 
-h1 {
+.about {
+	background-image: url('/lib/img/placeholder-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    min-height: 200px;
+    display: block;
+}
+
+.about h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome, Edge, Opera and Firefox */
+}
+
+.about p {
+	text-align: left;
+	margin-left: 15px;
+	width: 1000px;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome, Edge, Opera and Firefox */
+}
+
+body h1 {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
