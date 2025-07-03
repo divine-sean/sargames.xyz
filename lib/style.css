@@ -1,13 +1,35 @@
 *{margin: 0;padding: 0;}
 
 .about {
-	background-image: url('/lib/img/banner.webp');
+    width: 100vw;
+    height: 300px; /* Set a fixed height for the banner */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/lib/img/banner.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100vw;
-    min-height: 200px;
-    display: block;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+/* Optional: Add a dark overlay for readability */
+.about::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35); /* Adjust opacity as needed */
+    z-index: 0;
+    border-radius: 0;
+}
+
+.about h1,
+.about p {
+    position: relative;
+    z-index: 1;
 }
 
 .about h1 {
